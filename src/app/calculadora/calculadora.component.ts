@@ -11,6 +11,11 @@ export class CalculadoraComponent implements OnInit {
   resultado:string = "";
   constructor() { }
 
+  onLimpiar(): void {
+    this.resultado = ""
+
+  }
+
   onValor(numero:number): void {
     this.resultado = this.resultado + numero
 
