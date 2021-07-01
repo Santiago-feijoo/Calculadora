@@ -12,8 +12,14 @@ export class CalculadoraComponent implements OnInit {
   auxiliar:number=0;
   constructor() { }
 
+<<<<<<< HEAD
   onSuprimir(): void{
     this.resultado =this.resultado.substring(0, this.resultado.length - 1)
+=======
+  onSuprimir(): void {
+    this.resultado = this.resultado.substring(0, this.resultado.length - 1)
+
+>>>>>>> 1a07c7092db705cf825b2ea168bc776e3a09f1dc
   }
 
   onLimpiar(): void {
