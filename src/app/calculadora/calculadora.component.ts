@@ -11,6 +11,11 @@ export class CalculadoraComponent implements OnInit {
   resultado:string = "";
   constructor() { }
 
+  onSuprimir(): void {
+    this.resultado = this.resultado.substring(0, this.resultado.length - 1)
+
+  }
+
   onLimpiar(): void {
     this.resultado = ""
 
